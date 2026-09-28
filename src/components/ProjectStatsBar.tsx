@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollReveal } from './ScrollReveal';
-import { MapPin, Home, Layers, Building2, Star, Clock } from 'lucide-react';
+import { MapPin, Home, Layers, Building2, Shield, Clock } from 'lucide-react';
 
 interface StatItem {
   icon: React.ReactNode;
@@ -13,39 +13,39 @@ export const ProjectStatsBar: React.FC = () => {
   const stats: StatItem[] = [
     {
       icon: <MapPin size={18} color="var(--accent-gold)" />,
-      value: 'Hinjawadi',
-      label: 'Developer Hub',
-      caption: 'Marunji Rd, Pune 411057'
+      value: 'Hyderabad',
+      label: 'Business Location',
+      caption: 'Telangana, India'
     },
     {
       icon: <Home size={18} color="var(--accent-gold)" />,
-      value: 'Plots & Homes',
-      label: 'Property Categories',
-      caption: 'Residential & Commercial'
+      value: 'Consultancy',
+      label: 'Business Category',
+      caption: 'Real Estate Consultant'
     },
     {
       icon: <Layers size={18} color="var(--accent-gold)" />,
-      value: '4 Core Hubs',
-      label: 'Areas of Operation',
-      caption: 'Pune, Marunji, Hinjawadi, Narhe'
-    },
-    {
-      icon: <Star size={18} color="var(--accent-gold)" />,
-      value: '4.0 / 5',
-      label: 'Google Rating',
-      caption: '42 Verified Reviews'
+      value: 'Residential',
+      label: 'Living Spaces',
+      caption: 'Apartments, Villas, Plots'
     },
     {
       icon: <Building2 size={18} color="var(--accent-gold)" />,
-      value: '6 Categories',
-      label: 'Services Offered',
-      caption: 'Land & Property Development'
+      value: 'Commercial',
+      label: 'Business Properties',
+      caption: 'Offices, Shops & Spaces'
+    },
+    {
+      icon: <Shield size={18} color="var(--accent-gold)" />,
+      value: 'Advisory',
+      label: 'Client Services',
+      caption: 'Buy, Sell, Rent, Invest'
     },
     {
       icon: <Clock size={18} color="var(--accent-gold)" />,
-      value: '9 AM – 8 PM',
-      label: 'Business Hours',
-      caption: 'Mon, Wed – Sun Open'
+      value: '[WORKING_HOURS]',
+      label: 'Working Hours',
+      caption: 'Operating Schedule'
     }
   ];
 

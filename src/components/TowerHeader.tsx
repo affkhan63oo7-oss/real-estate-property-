@@ -99,7 +99,7 @@ export const TowerHeader: React.FC<TowerHeaderProps> = ({
                 textOverflow: 'ellipsis'
               }}
             >
-              FUTURE CONSTRUCTION
+              SMART ELITE REALTORS
             </span>
             <span
               className="hidden-mobile"
@@ -112,7 +112,7 @@ export const TowerHeader: React.FC<TowerHeaderProps> = ({
                 whiteSpace: 'nowrap'
               }}
             >
-              • HINJAWADI, PUNE
+              • HYDERABAD, TELANGANA
             </span>
           </a>
 
@@ -219,7 +219,7 @@ export const TowerHeader: React.FC<TowerHeaderProps> = ({
 
             {/* Call Now Secondary CTA */}
             <a
-              href="tel:+917210320001"
+              href="tel:[PHONE_NUMBER]"
               className="hidden-mobile"
               style={{
                 display: 'inline-flex',
@@ -334,7 +334,7 @@ export const TowerHeader: React.FC<TowerHeaderProps> = ({
               textAlign: 'center'
             }}
           >
-            FUTURE CONSTRUCTION • DIRECTORY
+            SMART ELITE REALTORS • DIRECTORY
           </span>
 
           <div
@@ -401,7 +401,7 @@ export const TowerHeader: React.FC<TowerHeaderProps> = ({
             </button>
 
             <a
-              href="tel:+917210320001"
+              href="tel:[PHONE_NUMBER]"
               className="btn-111-secondary"
               style={{
                 width: '100%',
@@ -416,11 +416,11 @@ export const TowerHeader: React.FC<TowerHeaderProps> = ({
                 justifyContent: 'center'
               }}
             >
-              Call: +91 72103 20001
+              Call: [PHONE_NUMBER]
             </a>
 
             <a
-              href="https://wa.me/917210320001?text=Hello%20Future%20Construction%2C%20I%20am%20inquiring%20about%20your%20properties%20and%20plots."
+              href="https://wa.me/[WHATSAPP_NUMBER]"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-111-secondary"

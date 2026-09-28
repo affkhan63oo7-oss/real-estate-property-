@@ -669,10 +669,10 @@ export const STATS_DATA = [
 export const TESTIMONIALS = [
   {
     id: 't-01',
-    quote: 'Future Construction provided responsive guidance and transparent assistance for our property requirements in Pune.',
-    author: 'Verified Client',
-    title: 'Property Buyer',
-    location: 'Hinjawadi, Pune'
+    quote: 'Smart Elite Realtors provided responsive guidance and transparent assistance for our property requirements in Hyderabad.',
+    author: 'Consultation Client',
+    title: 'Property Advisory',
+    location: 'Hyderabad, Telangana'
   },
   {
     id: 't-02',

@@ -12,34 +12,34 @@ export const ProjectFAQ: React.FC = () => {
 
   const faqs: FAQItem[] = [
     {
-      question: 'What services and property categories does Future Construction offer?',
+      question: 'What services and property categories does Smart Elite Realtors offer?',
       answer:
-        'Future Construction is a real estate developer and property developer based in Hinjawadi, Pune. We specialize across six core property categories: Residential Land & Plots, Commercial Plots, Residential Property, Commercial Property, Land Property, and Property Development.'
+        'Smart Elite Realtors provides real-estate consulting services in Hyderabad for clients looking to buy, sell, rent, or invest in residential and commercial properties. Services include buying assistance, property selling support, rental assistance, apartments, villas, independent houses, plots, commercial spaces, offices, shops, and property investment guidance.'
     },
     {
-      question: 'Which areas does Future Construction operate in?',
+      question: 'Which areas does Smart Elite Realtors operate in?',
       answer:
-        'Our active areas of operation include Pune, Marunji, Hinjawadi, and Narhe. We assist buyers, investors, and landowners in selecting prime plots, commercial spaces, and residential developments across these high-growth corridors.'
+        'Smart Elite Realtors supports buyers, sellers, tenants, landlords, and investors with residential and commercial property requirements across Hyderabad, Telangana, India.'
     },
     {
-      question: 'Where is Future Construction located and how can I visit?',
+      question: 'Where is Smart Elite Realtors located and how can I visit?',
       answer:
-        'Our office is conveniently located at Sakhare Complex, Marunji Road, Near Hotel Mezza9, Hinjawadi, Pune, Maharashtra – 411057, India. You can connect with our team for in-person consultations, plot surveys, and property walkthroughs.'
+        'Smart Elite Realtors is based in Hyderabad, Telangana, India at [FULL_OFFICE_ADDRESS] (Google Maps Coordinates: 17.452361, 78.358107). Please reach out to our team to schedule an in-person consultation or site walkthrough.'
     },
     {
-      question: 'What are Future Construction’s business hours?',
+      question: 'What are Smart Elite Realtors’ business hours?',
       answer:
-        'We are open Monday, Wednesday, Thursday, Friday, Saturday, and Sunday from 9:00 AM to 8:00 PM. (Closed on Tuesdays).'
+        'Our business hours for consultation and client support are [WORKING_HOURS].'
     },
     {
-      question: 'How do I arrange a site visit or enquire about available plots?',
+      question: 'How do I arrange a property consultation or site walkthrough?',
       answer:
-        'You can click "Enquire Now" on this website, call us directly at +91 72103 20001, or reach out via WhatsApp at +91 72103 20001. Our team will promptly assist with site visits, plot dimensions, and documentation.'
+        'You can click "Enquire Now" on this website, call us at [PHONE_NUMBER], reach out via WhatsApp at [WHATSAPP_NUMBER], or email us at [BUSINESS_EMAIL]. Our advisory team will assist with scheduling and property details.'
     },
     {
-      question: 'What customer ratings and reviews does Future Construction hold?',
+      question: 'What regulatory and compliance standards does Smart Elite Realtors follow?',
       answer:
-        'Future Construction holds a 4.0/5 rating with 42 verified reviews on Google, reflecting our commitment to transparent property guidance and dedicated client service in Pune.'
+        'Smart Elite Realtors adheres to industry best practices and regulatory compliance. RERA Number: [RERA_NUMBER]. All property consultations and documentation checks are conducted with due diligence and integrity.'
     }
   ];
 

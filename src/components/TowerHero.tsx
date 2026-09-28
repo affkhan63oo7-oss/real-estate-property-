@@ -15,7 +15,7 @@ interface HeroSlide {
 const HERO_SLIDES: HeroSlide[] = [
   {
     url: '/images/hero/hero-1.jpg',
-    alt: 'Pune Skyline and Residential Horizon',
+    alt: 'Hyderabad Skyline and Residential Horizon',
     position: 'center center'
   },
   {
@@ -238,7 +238,7 @@ export const TowerHero: React.FC<TowerHeroProps> = ({ onExploreClick, onInquireC
             willChange: 'opacity, transform'
           }}
         >
-          • HINJAWADI • PUNE •
+          • HYDERABAD • TELANGANA •
         </span>
 
         {/* Monumental Headline */}
@@ -257,7 +257,7 @@ export const TowerHero: React.FC<TowerHeroProps> = ({ onExploreClick, onInquireC
             willChange: 'opacity, transform'
           }}
         >
-          FUTURE CONSTRUCTION
+          SMART ELITE REALTORS
         </h1>
 
         {/* Elegant Supporting Subhead */}
@@ -277,7 +277,7 @@ export const TowerHero: React.FC<TowerHeroProps> = ({ onExploreClick, onInquireC
             willChange: 'opacity, transform'
           }}
         >
-          Real Estate Developer & Property Developer in Hinjawadi, Pune. Residential land & plots, commercial plots, residential & commercial properties, and land development across Pune, Marunji, Hinjawadi, and Narhe.
+          Smart Property Guidance for Hyderabad. Smart Elite Realtors provides real-estate consulting services in Hyderabad for clients looking to buy, sell, rent, or invest in residential and commercial properties.
         </p>
 
         {/* Direct Action-Focused CTAs */}
@@ -314,7 +314,7 @@ export const TowerHero: React.FC<TowerHeroProps> = ({ onExploreClick, onInquireC
 
           {/* Secondary CTA: Call Now */}
           <a
-            href="tel:+917210320001"
+            href="tel:[PHONE_NUMBER]"
             className="btn-111-secondary"
             style={{
               color: '#FAF8F5',
@@ -336,7 +336,7 @@ export const TowerHero: React.FC<TowerHeroProps> = ({ onExploreClick, onInquireC
 
           {/* Direct CTA: WhatsApp Us */}
           <a
-            href="https://wa.me/917210320001?text=Hello%20Future%20Construction%2C%20I%20am%20inquiring%20about%20your%20properties%20and%20plots."
+            href="https://wa.me/[WHATSAPP_NUMBER]"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-111-secondary"

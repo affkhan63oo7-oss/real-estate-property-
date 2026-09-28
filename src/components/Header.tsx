@@ -84,7 +84,7 @@ export const Header: React.FC<HeaderProps> = ({
                 transition: 'color 0.3s'
               }}
             >
-              Future Construction
+              Smart Elite Realtors
             </span>
             <span
               style={{
@@ -96,7 +96,7 @@ export const Header: React.FC<HeaderProps> = ({
                 textTransform: 'uppercase'
               }}
             >
-              • Hinjawadi, Pune
+              • Hyderabad, Telangana
             </span>
           </a>
 
@@ -281,7 +281,7 @@ export const Header: React.FC<HeaderProps> = ({
 
           <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
             <span style={{ fontFamily: 'var(--font-serif)', fontSize: '1.6rem', textTransform: 'uppercase' }}>
-              Future Construction
+              Smart Elite Realtors
             </span>
           </div>
 

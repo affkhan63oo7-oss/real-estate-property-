@@ -153,7 +153,7 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ isOpen, onClose, onToast
             <Shield size={20} color="#C9A982" />
             <div>
               <span style={{ fontSize: '0.6875rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#C9A982', fontWeight: 700 }}>
-                Future Construction Admin
+                Smart Elite Realtors Admin
               </span>
               <h3 style={{ fontSize: '1.25rem', color: '#FFFFFF', fontWeight: 400 }}>
                 Consultancy Registry & Operations

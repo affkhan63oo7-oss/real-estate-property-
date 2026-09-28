@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowUp, MapPin, Phone, Clock, Star, ArrowUpRight, MessageCircle, Send } from 'lucide-react';
+import { ArrowUp, MapPin, Phone, Clock, ArrowUpRight, MessageCircle, Send, Mail, Shield } from 'lucide-react';
 import { ScrollReveal } from './ScrollReveal';
 
 interface TowerFooterProps {
@@ -41,19 +40,20 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
   ];
 
   const services = [
-    'Residential Land & Plots',
-    'Commercial Plots',
-    'Residential Property',
-    'Commercial Property',
-    'Land Property',
-    'Property Development'
+    'Buying Assistance',
+    'Property Selling Support',
+    'Rental Assistance',
+    'Apartments & Villas',
+    'Independent Houses & Plots',
+    'Commercial Spaces & Offices',
+    'Commercial Shops',
+    'Property Investment Guidance'
   ];
 
   const localities = [
-    'Pune',
-    'Marunji',
-    'Hinjawadi',
-    'Narhe'
+    'Hyderabad',
+    'Telangana',
+    'India'
   ];
 
   return (
@@ -95,7 +95,7 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
                   marginBottom: '0.65rem'
                 }}
               >
-                Real Estate Developer & Property Developer • Pune
+                Real Estate Consultant / Property Advisory • Hyderabad
               </span>
               <h2
                 style={{
@@ -106,7 +106,7 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
                   letterSpacing: 'clamp(0.04em, 1.2vw, 0.08em)'
                 }}
               >
-                FUTURE CONSTRUCTION
+                SMART ELITE REALTORS
               </h2>
               <span
                 style={{
@@ -119,7 +119,7 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
                   maxWidth: '680px'
                 }}
               >
-                Sakhare Complex, Marunji Road, Near Hotel Mezza9, Hinjawadi, Pune, Maharashtra – 411057
+                [FULL_OFFICE_ADDRESS] • Hyderabad, Telangana, India
               </span>
             </div>
 
@@ -134,7 +134,7 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
               </button>
 
               <a
-                href="tel:+917210320001"
+                href="tel:[PHONE_NUMBER]"
                 className="btn-gold-outline"
                 style={{
                   flex: '1 1 140px',
@@ -152,7 +152,7 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
               </a>
 
               <a
-                href="https://wa.me/917210320001?text=Hello%20Future%20Construction%2C%20I%20am%20inquiring%20about%20your%20properties%20and%20plots."
+                href="https://wa.me/[WHATSAPP_NUMBER]"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-gold-outline"
@@ -202,24 +202,33 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem', fontSize: '0.85rem', color: 'rgba(250, 248, 245, 0.75)' }}>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.65rem' }}>
                 <MapPin size={16} color="var(--accent-gold)" style={{ flexShrink: 0, marginTop: '0.2rem' }} />
-                <span>Sakhare Complex, Marunji Road, Near Hotel Mezza9, Hinjawadi, Pune, Maharashtra – 411057, India</span>
+                <span>[FULL_OFFICE_ADDRESS] • Hyderabad, Telangana, India</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
                 <Phone size={15} color="var(--accent-gold)" style={{ flexShrink: 0 }} />
-                <a href="tel:+917210320001" style={{ color: 'inherit', textDecoration: 'none' }}>
-                  +91 72103 20001
+                <a href="tel:[PHONE_NUMBER]" style={{ color: 'inherit', textDecoration: 'none' }}>
+                  [PHONE_NUMBER]
                 </a>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
-                <Star size={15} color="var(--accent-gold)" style={{ flexShrink: 0 }} />
-                <span>4.0 / 5 (42 Google Reviews)</span>
+                <MessageCircle size={15} color="var(--accent-gold)" style={{ flexShrink: 0 }} />
+                <a href="https://wa.me/[WHATSAPP_NUMBER]" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                  WhatsApp: [WHATSAPP_NUMBER]
+                </a>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
+                <Mail size={15} color="var(--accent-gold)" style={{ flexShrink: 0 }} />
+                <span>[BUSINESS_EMAIL]</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.65rem' }}>
                 <Clock size={15} color="var(--accent-gold)" style={{ flexShrink: 0, marginTop: '0.2rem' }} />
                 <div>
-                  <div>Mon, Wed – Sun: 9:00 AM – 8:00 PM</div>
-                  <div style={{ fontSize: '0.75rem', color: 'rgba(250, 248, 245, 0.5)' }}>Closed on Tuesdays</div>
+                  <div>Working Hours: [WORKING_HOURS]</div>
                 </div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
+                <Shield size={15} color="var(--accent-gold)" style={{ flexShrink: 0 }} />
+                <span>RERA Number: [RERA_NUMBER]</span>
               </div>
               <div style={{ marginTop: '0.35rem' }}>
                 <button
@@ -349,17 +358,17 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
         >
           <div style={{ maxWidth: '780px', lineHeight: 1.6 }}>
             <p style={{ fontSize: '0.72rem', color: 'rgba(250, 248, 245, 0.55)', marginBottom: '0.35rem' }}>
-              <strong style={{ color: 'var(--accent-gold)' }}>Disclaimer:</strong> Future Construction is a real estate developer and property developer operating in Pune, Marunji, Hinjawadi, and Narhe. All property dimensions, layout plans, and specifications are indicative and subject to verification with respective authorities and planning bodies.
+              <strong style={{ color: 'var(--accent-gold)' }}>Disclaimer:</strong> Smart Elite Realtors provides real-estate consulting services in Hyderabad for clients looking to buy, sell, rent, or invest in residential and commercial properties. All property dimensions, layout plans, and specifications are indicative and subject to verification with respective authorities, developers, and property owners.
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', alignItems: 'center', fontSize: '0.72rem', color: 'rgba(250, 248, 245, 0.55)', marginTop: '0.5rem' }}>
               <span>Privacy Policy</span>
               <span>•</span>
-              <span>Terms of Discretion</span>
+              <span>Terms of Service</span>
               <span>•</span>
-              <span>RERA Compliance</span>
+              <span>RERA: [RERA_NUMBER]</span>
             </div>
             <p style={{ fontSize: '0.72rem', color: 'rgba(250, 248, 245, 0.45)', marginTop: '0.35rem' }}>
-              © {new Date().getFullYear()} Future Construction. All rights reserved. Sakhare Complex, Marunji Road, Hinjawadi, Pune.
+              © {new Date().getFullYear()} Smart Elite Realtors. All rights reserved. Hyderabad, Telangana, India.
             </p>
           </div>
 

@@ -44,7 +44,7 @@ export const getStoredAppointments = (): Appointment[] => {
         {
           id: 'apt-001',
           created_at: new Date(Date.now() - 86400000 * 2).toISOString(),
-          property_id: 'res-plots-hinjawadi',
+          property_id: 'res-plots-hyderabad',
           property_title: 'Residential Land & Plots',
           full_name: 'Amitabh Sen',
           email: 'amitabh.sen@example.com',
@@ -53,7 +53,7 @@ export const getStoredAppointments = (): Appointment[] => {
           preferred_date: '2026-10-15',
           preferred_time: '11:00 AM (Morning)',
           inquiry_type: 'Property Consultation',
-          notes: 'Interested in clear-title residential plot in Hinjawadi / Marunji.',
+          notes: 'Interested in clear-title residential plot or villa in Hyderabad.',
           status: 'Confirmed'
         },
         {
@@ -151,7 +151,7 @@ export const getStoredLeads = (): LeadEnquiry[] => {
           preferred_contact: 'WhatsApp',
           property_interest: 'Residential 3 BHK',
           budget_range: '₹2 Cr – ₹3.5 Cr',
-          message: 'Looking for a verified residential plot or property in Hinjawadi, Pune.',
+          message: 'Looking for verified residential property advisory in Hyderabad.',
           status: 'New'
         }
       ];

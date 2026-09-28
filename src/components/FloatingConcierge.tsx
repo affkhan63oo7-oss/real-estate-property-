@@ -42,11 +42,11 @@ export const FloatingConcierge: React.FC<FloatingConciergeProps> = ({
           }}
         >
           <span style={{ fontSize: '0.6875rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--accent-bronze)' }}>
-            Future Construction Help Desk
+            Smart Elite Realtors Help Desk
           </span>
 
           <a
-            href="https://wa.me/917210320001?text=Hello%20Future%20Construction%2C%20I%20am%20inquiring%20about%20your%20properties%20and%20plots."
+            href="https://wa.me/[WHATSAPP_NUMBER]"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -86,7 +86,7 @@ export const FloatingConcierge: React.FC<FloatingConciergeProps> = ({
           </button>
 
           <a
-            href="tel:+917210320001"
+            href="tel:[PHONE_NUMBER]"
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -101,7 +101,7 @@ export const FloatingConcierge: React.FC<FloatingConciergeProps> = ({
             }}
           >
             <Phone size={14} />
-            <span>Call Now: +91 72103 20001</span>
+            <span>Call Now: [PHONE_NUMBER]</span>
           </a>
         </div>
       )}

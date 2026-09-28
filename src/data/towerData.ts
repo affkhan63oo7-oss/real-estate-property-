@@ -35,143 +35,143 @@ export interface BusinessService {
 
 export const TOWER_RESIDENCES: TowerResidence[] = [
   {
-    id: 'res-plots-hinjawadi',
-    residenceNumber: 'Residential Land & Plots',
+    id: 'res-apartments-villas',
+    residenceNumber: 'Apartments & Villas',
     floor: 1,
-    type: 'Residential Land & Plots',
-    tagline: 'Clear-title residential plots in rapidly growing sectors of Hinjawadi & Marunji.',
+    type: 'Apartments & Luxury Villas',
+    tagline: 'Comprehensive buying, selling, and rental guidance for premium residential homes in Hyderabad.',
     price: 0,
-    priceFormatted: 'Contact for Pricing',
-    bedrooms: 0,
-    bathrooms: 0,
+    priceFormatted: 'Consultation on Request',
+    bedrooms: 3,
+    bathrooms: 3,
     powderRooms: 0,
-    interiorSqFt: 1500,
-    exposure: 'Road Facing / Corner Plots',
-    ceilingHeight: 'Open Plot',
-    imageHero: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=85',
-    imageDetail: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85',
-    floorPlanUrl: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80',
-    description: 'Well-demarcated residential land and plot options located in prime growth pockets of Hinjawadi and Marunji with direct road connectivity and planned utility access.',
+    interiorSqFt: 1850,
+    exposure: 'East / North Facing Options',
+    ceilingHeight: 'Optimal Height',
+    imageHero: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85',
+    imageDetail: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85',
+    floorPlanUrl: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+    description: 'Expert advisory for clients seeking premium apartments, gated community villas, and independent residential living across prominent residential hubs in Hyderabad.',
     keyFeatures: [
-      'Located in Hinjawadi & Marunji growth sector',
-      'Clear demarcation and direct access road',
-      'Suitable for independent home or residential construction',
-      'Proximity to Hinjawadi IT Park and Marunji Road',
-      'Dedicated property facilitation by Future Construction'
+      'Personalized property scouting matching family preferences',
+      'End-to-end buying, selling, and leasing support',
+      'Documentation review and legal due diligence guidance',
+      'Assistance across high-demand residential sectors in Hyderabad',
+      'Dedicated advisory from Smart Elite Realtors'
     ],
-    location: 'Hinjawadi & Marunji, Pune',
+    location: 'Hyderabad, Telangana, India',
     category: 'Residential'
   },
   {
-    id: 'res-comm-plots',
-    residenceNumber: 'Commercial Plots',
+    id: 'res-plots-houses',
+    residenceNumber: 'Plots & Independent Houses',
     floor: 1,
-    type: 'Commercial Plots',
-    tagline: 'High-visibility commercial plots suitable for enterprise development and businesses.',
+    type: 'Independent Houses & Plots',
+    tagline: 'Clear-title residential plots and independent homes in prime growth corridors of Hyderabad.',
     price: 0,
-    priceFormatted: 'Contact for Pricing',
+    priceFormatted: 'Consultation on Request',
     bedrooms: 0,
     bathrooms: 0,
     powderRooms: 0,
     interiorSqFt: 2400,
-    exposure: 'Main Road Frontage',
-    ceilingHeight: 'Commercial Zone',
-    imageHero: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1800&q=85',
-    imageDetail: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1800&q=85',
-    floorPlanUrl: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80',
-    description: 'Strategically positioned commercial plots offering high footfall, arterial road visibility, and multi-purpose business potential along the Marunji and Hinjawadi corridors.',
+    exposure: 'Wide Road / Corner Frontage',
+    ceilingHeight: 'Open Layout',
+    imageHero: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=85',
+    imageDetail: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85',
+    floorPlanUrl: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80',
+    description: 'Specialized consulting for residential land, clear-title plots, and independent houses across emerging and established corridors in Hyderabad, Telangana.',
     keyFeatures: [
-      'Prominent road frontage in Hinjawadi / Marunji',
-      'High commercial viability and footfall potential',
-      'Direct connectivity to Pune-Mumbai transit arteries',
-      'Clear title documentation and plot verification',
-      'Advisory and site coordination by Future Construction'
+      'Survey verification and boundary demarcation checks',
+      'Clear legal title chain evaluation and documentation review',
+      'Direct coordination for property visits and valuation',
+      'Strategic locations with sound future appreciation potential',
+      'Dedicated advisory from Smart Elite Realtors'
     ],
-    location: 'Hinjawadi, Pune',
-    category: 'Commercial'
-  },
-  {
-    id: 'res-residential-prop',
-    residenceNumber: 'Residential Property',
-    floor: 12,
-    type: 'Residential Property',
-    tagline: 'Carefully curated residential properties designed for modern family living in Pune.',
-    price: 0,
-    priceFormatted: 'Contact for Pricing',
-    bedrooms: 3,
-    bathrooms: 3,
-    powderRooms: 0,
-    interiorSqFt: 1250,
-    exposure: 'East / North Facing',
-    ceilingHeight: '10 FT',
-    imageHero: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85',
-    imageDetail: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85',
-    floorPlanUrl: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
-    description: 'Thoughtfully configured residential properties featuring optimal room proportions, cross-ventilation, and peaceful neighborhood settings in Pune and Hinjawadi.',
-    keyFeatures: [
-      'Quality construction standards with modern layouts',
-      'Well-separated living, dining, and private bedroom zones',
-      'Balcony exposure with expansive natural lighting',
-      'Convenient access to Hinjawadi IT Park, schools, and conveniences',
-      'End-to-end guidance from Future Construction team'
-    ],
-    location: 'Hinjawadi, Pune',
+    location: 'Hyderabad, Telangana, India',
     category: 'Residential'
   },
   {
-    id: 'res-commercial-prop',
-    residenceNumber: 'Commercial Property',
+    id: 'res-commercial-offices',
+    residenceNumber: 'Commercial Spaces & Offices',
     floor: 4,
-    type: 'Commercial Property',
-    tagline: 'Modern commercial premises and workspaces tailored for corporate and business operations.',
+    type: 'Commercial Spaces & Offices',
+    tagline: 'Modern office suites and corporate spaces situated in Hyderabad’s premier business districts.',
     price: 0,
-    priceFormatted: 'Contact for Pricing',
+    priceFormatted: 'Consultation on Request',
     bedrooms: 0,
     bathrooms: 2,
     powderRooms: 0,
-    interiorSqFt: 1100,
-    exposure: 'Arterial Frontage',
-    ceilingHeight: '12 FT',
+    interiorSqFt: 2800,
+    exposure: 'Arterial Business Corridors',
+    ceilingHeight: 'Commercial Grade',
     imageHero: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=85',
     imageDetail: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1800&q=85',
     floorPlanUrl: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80',
-    description: 'Flexible commercial spaces situated in active business corridors of Pune, Hinjawadi, and Narhe. Engineered for corporate offices, retail, and commercial ventures.',
+    description: 'Corporate real estate consulting for companies, startups, and investors looking to lease or buy scalable office spaces and commercial properties in Hyderabad.',
     keyFeatures: [
-      'Prime business location in Pune / Hinjawadi / Narhe',
-      'Open floor-plate design for modular workspace layouts',
-      'High footfall and arterial connectivity',
-      'Ample parking provision and essential commercial utilities',
-      'Assistance throughout inspection and agreement stages'
+      'Strategic locations near major IT and commercial business parks',
+      'Modular floor configurations tailored for corporate workflows',
+      'Lease structuring, commercial terms, and agreement assistance',
+      'Inspection facilitation and market rate comparative assessment',
+      'Dedicated advisory from Smart Elite Realtors'
     ],
-    location: 'Pune & Narhe',
+    location: 'Hyderabad, Telangana, India',
     category: 'Commercial'
   },
   {
-    id: 'res-land-development',
-    residenceNumber: 'Land Property & Property Development',
+    id: 'res-commercial-shops',
+    residenceNumber: 'Commercial Shops & Retail',
     floor: 1,
-    type: 'Property Development',
-    tagline: 'Comprehensive land acquisition, parcel planning, and property development solutions in Pune.',
+    type: 'Commercial Shops & Showrooms',
+    tagline: 'High-footfall commercial shops and retail spaces across Hyderabad’s thriving shopping belts.',
     price: 0,
-    priceFormatted: 'Contact for Pricing',
+    priceFormatted: 'Consultation on Request',
+    bedrooms: 0,
+    bathrooms: 1,
+    powderRooms: 0,
+    interiorSqFt: 1200,
+    exposure: 'Main Road Frontage',
+    ceilingHeight: 'Retail Standard',
+    imageHero: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1800&q=85',
+    imageDetail: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1800&q=85',
+    floorPlanUrl: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80',
+    description: 'Retail property consultancy connecting retail brands, franchisees, and commercial investors with prime retail shops and storefronts in Hyderabad.',
+    keyFeatures: [
+      'High-visibility retail locations with steady footfall',
+      'Suitable for flagship stores, clinics, showrooms, and eateries',
+      'Transparent buying and leasing support',
+      'Paperwork coordination and legal verification assistance',
+      'Dedicated advisory from Smart Elite Realtors'
+    ],
+    location: 'Hyderabad, Telangana, India',
+    category: 'Commercial'
+  },
+  {
+    id: 'res-investment-guidance',
+    residenceNumber: 'Property Investment Guidance',
+    floor: 1,
+    type: 'Property Investment Guidance',
+    tagline: 'Data-driven real estate investment advisory delivering long-term growth across Hyderabad.',
+    price: 0,
+    priceFormatted: 'Consultation on Request',
     bedrooms: 0,
     bathrooms: 0,
     powderRooms: 0,
-    interiorSqFt: 5000,
-    exposure: 'Strategic Growth Sector',
-    ceilingHeight: 'Development Parcel',
+    interiorSqFt: 3500,
+    exposure: 'High-Growth Corridors',
+    ceilingHeight: 'Advisory Asset',
     imageHero: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=85',
     imageDetail: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=85',
     floorPlanUrl: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80',
-    description: 'End-to-end property development and land property services by Future Construction. Focused on parcel planning, boundary demarcation, and development execution in Pune, Marunji, and Narhe.',
+    description: 'Comprehensive property investment guidance for residential and commercial assets, focusing on capital appreciation, rental yield, and risk mitigation in Hyderabad.',
     keyFeatures: [
-      'Active land development in Pune, Marunji, Hinjawadi, and Narhe',
-      'Systematic parcel planning and boundary demarcation',
-      'Clear paperwork and title transparency',
-      'Backed by verified 4.0/5 Google review track record',
-      'Direct developer consultation at Sakhare Complex, Hinjawadi'
+      'Comparative market analysis and neighborhood growth forecasting',
+      'Residential and commercial asset diversification strategies',
+      'Rental yield analysis and tenant placement consultation',
+      'Transparent advisory adhering to client investment goals',
+      'Dedicated advisory from Smart Elite Realtors'
     ],
-    location: 'Marunji & Pune',
+    location: 'Hyderabad, Telangana, India',
     category: 'Residential'
   }
 ];
@@ -181,16 +181,16 @@ export const PANORAMA_VIEWS = [
     id: 'day',
     label: 'Morning Light',
     time: '09:30 AM',
-    headline: 'Pune & Hinjawadi Daylight & Growth',
-    description: 'Expansive vistas stretching across Hinjawadi, Marunji, and Pune’s western development corridor, framed by open green landscapes and active infrastructure.',
+    headline: 'Hyderabad Daylight & Growth Corridors',
+    description: 'Expansive vistas stretching across Hyderabad’s western growth corridor, framed by progressive infrastructure and premier developments.',
     imageUrl: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=2200&q=90'
   },
   {
     id: 'dusk',
     label: 'Golden Hour',
     time: '06:15 PM',
-    headline: 'Warm Sunset Over Hinjawadi Skyline',
-    description: 'Golden sunlight illuminates the tech corridors, open residential plots, and arterial roads connecting Marunji and Hinjawadi to Pune city.',
+    headline: 'Warm Sunset Over Hyderabad Skyline',
+    description: 'Golden sunlight illuminates the business corridors, vibrant residential enclaves, and arterial roads connecting Hyderabad.',
     imageUrl: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=2200&q=90'
   },
   {
@@ -198,7 +198,7 @@ export const PANORAMA_VIEWS = [
     label: 'Evening Citylights',
     time: '09:45 PM',
     headline: 'Vibrant Tech Hub & Living Corridors',
-    description: 'The energetic evening atmosphere of Pune and Hinjawadi comes alive with illuminated transit arteries, business hubs, and tranquil residential zones.',
+    description: 'The energetic evening atmosphere of Hyderabad comes alive with illuminated transit arteries, business towers, and peaceful residential communities.',
     imageUrl: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2200&q=90'
   }
 ];
@@ -206,131 +206,146 @@ export const PANORAMA_VIEWS = [
 export const SERVICES_DATA: BusinessService[] = [
   {
     id: 'service-1',
-    title: 'Residential Land & Plots',
-    subtitle: 'Category 01 • Land & Plots',
-    category: 'Residential Land & Plots',
-    description: 'Verified residential plots and land options across growing residential localities in Hinjawadi, Marunji, and Pune.',
-    scope: 'Plot Scouting • Demarcation • Title Verification',
-    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=85',
+    title: 'Buying Assistance',
+    subtitle: 'Service 01 • Acquisition Support',
+    category: 'Buying Assistance',
+    description: 'End-to-end guidance for buyers searching for residential apartments, villas, houses, plots, and commercial properties in Hyderabad.',
+    scope: 'Requirement Analysis • Property Scouting • Negotiation Support',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85',
     featurePoints: [
-      'Carefully surveyed plots with clear access roads',
-      'Verified land records in Pune and Marunji',
-      'Assistance with boundary demarcation and documentation',
-      'Direct developer advisory from Future Construction'
+      'Tailored property shortlisting based on budget and lifestyle',
+      'Assistance with site inspections and physical walkthroughs',
+      'Support with price negotiation and transaction structuring',
+      'Dedicated guidance from Smart Elite Realtors'
     ]
   },
   {
     id: 'service-2',
-    title: 'Commercial Plots',
-    subtitle: 'Category 02 • Enterprise Land',
-    category: 'Commercial Plots',
-    description: 'Prime commercial land and plot parcels along high-traffic roads and business zones in Hinjawadi and Pune.',
-    scope: 'Commercial Zoning • Arterial Frontage • High Footfall',
+    title: 'Property Selling Support',
+    subtitle: 'Service 02 • Disposition & Liquidity',
+    category: 'Property Selling Support',
+    description: 'Strategic representation for property owners looking to sell residential and commercial assets at optimal market values.',
+    scope: 'Valuation Guidance • Qualified Buyer Sourcing • Documentation',
     image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1800&q=85',
     featurePoints: [
-      'Prominent road visibility on Marunji Road & Hinjawadi corridors',
-      'Suitable for retail, corporate hubs, and commercial ventures',
-      'Clear title evaluation and transparent paperwork',
-      'Strategic growth potential in expanding Pune business belts'
+      'Accurate market pricing and positioning strategy',
+      'Targeted outreach to verified buyers and investors',
+      'Assistance with sales deed documentation and transfer',
+      'Transparent communication at every stage'
     ]
   },
   {
     id: 'service-3',
-    title: 'Residential Property',
-    subtitle: 'Category 03 • Living Spaces',
-    category: 'Residential Property',
-    description: 'Quality residential homes and family living options across Pune, Hinjawadi, and Marunji.',
-    scope: 'Family Living • Modern Layouts • Convenient Access',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85',
+    title: 'Rental Assistance & Leasing',
+    subtitle: 'Service 03 • Tenancy & Leasing',
+    category: 'Rental Assistance',
+    description: 'Seamless rental and leasing assistance for tenants, landlords, corporate occupiers, and commercial retail brands in Hyderabad.',
+    scope: 'Tenant Screening • Lease Agreements • Property Handover',
+    image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=85',
     featurePoints: [
-      'Carefully planned residences with natural lighting and airflow',
-      'Proximity to IT parks, educational institutions, and healthcare',
-      'Transparent buying assistance and paperwork coordination',
-      'Personalised consultation based on your family requirements'
+      'Curated rental options across apartments, villas, and offices',
+      'Verification and screening of prospective tenants',
+      'Drafting of comprehensive rental and lease agreements',
+      'Prompt assistance with renewals and handover formalities'
     ]
   },
   {
     id: 'service-4',
-    title: 'Commercial Property',
-    subtitle: 'Category 04 • Business Spaces',
-    category: 'Commercial Property',
-    description: 'Commercial workspaces, office suites, and retail premises across Pune, Hinjawadi, and Narhe.',
-    scope: 'Office Spaces • Retail Outlets • Enterprise Units',
-    image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=85',
+    title: 'Apartments & Villas',
+    subtitle: 'Service 04 • Residential Living',
+    category: 'Apartments & Villas',
+    description: 'In-depth consultation for premium residential apartments, luxury condominiums, and gated community villas in Hyderabad.',
+    scope: 'Gated Communities • Condominiums • Luxury Villas',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1800&q=85',
     featurePoints: [
-      'Modern commercial units designed for functional business workflows',
-      'Active commercial pockets in Hinjawadi, Narhe, and Pune',
-      'Support throughout property inspections and lease/sale agreements',
-      'Clear documentation and transparent commercial terms'
+      'Curated options in top gated communities and townships',
+      'Clear documentation and title transparency verification',
+      'Proximity to reputed schools, hospitals, and transit hubs',
+      'Personalized family consultation and site visits'
     ]
   },
   {
     id: 'service-5',
-    title: 'Land Property',
-    subtitle: 'Category 05 • Strategic Land',
-    category: 'Land Property',
-    description: 'Acquisition, evaluation, and transaction guidance for land parcels throughout the Pune metropolitan region.',
-    scope: 'Land Evaluation • Demarcation • Parcel Verification',
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1800&q=85',
+    title: 'Independent Houses & Plots',
+    subtitle: 'Service 05 • Land & Independent Homes',
+    category: 'Plots & Houses',
+    description: 'Guidance on acquiring verified residential plots and independent houses with clear titles across growth corridors of Hyderabad.',
+    scope: 'Residential Plots • Title Chain • Independent Homes',
+    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=85',
     featurePoints: [
-      'Land opportunities across Marunji, Hinjawadi, Narhe, and Pune',
-      'Thorough due diligence on title chains and land surveys',
-      'Objective guidance tailored to buyer goals and development plans',
-      'Direct coordination with Future Construction leadership'
+      'Carefully surveyed plots with clear access roads',
+      'Verified municipal records and title deed inspection',
+      'Objective guidance tailored to buyer construction goals',
+      'Direct facilitation from Smart Elite Realtors'
     ]
   },
   {
     id: 'service-6',
-    title: 'Property Development',
-    subtitle: 'Category 06 • Development Solutions',
-    category: 'Property Development',
-    description: 'Professional property development services delivering planned layouts, infrastructure, and built environments in Pune.',
-    scope: 'Site Planning • Infrastructure • Project Execution',
+    title: 'Commercial Spaces, Offices & Shops',
+    subtitle: 'Service 06 • Business Real Estate',
+    category: 'Commercial Properties',
+    description: 'Commercial advisory for corporate office suites, retail outlets, showrooms, and commercial spaces across Hyderabad.',
+    scope: 'Corporate Offices • Retail Units • Commercial Spaces',
     image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=85',
     featurePoints: [
-      'End-to-end property development execution in Pune & Marunji',
-      'Site preparation, road layout, and utility planning',
-      'Quality development standards backed by 42 Google reviews (4.0/5)',
-      'Office conveniently located at Sakhare Complex, Hinjawadi'
+      'High-traffic commercial belts and prominent business towers',
+      'Support throughout commercial lease/sale negotiation',
+      'Space efficiency analysis and infrastructure verification',
+      'Clear documentation and business-aligned terms'
+    ]
+  },
+  {
+    id: 'service-7',
+    title: 'Property Investment Guidance',
+    subtitle: 'Service 07 • Wealth & Growth',
+    category: 'Property Investment Guidance',
+    description: 'Strategic market insights and advisory for individual and institutional investors looking to maximize returns in Hyderabad real estate.',
+    scope: 'Yield Analysis • Capital Appreciation • Risk Mitigation',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85',
+    featurePoints: [
+      'Identification of high-potential growth nodes in Hyderabad',
+      'Evaluation of rental yields and capital appreciation prospects',
+      'Portfolio diversification across residential and commercial assets',
+      'Transparent advisory focused strictly on client goals'
     ]
   }
 ];
 
 export const NEIGHBORHOOD_DESTINATIONS = [
   {
-    name: 'Hotel Mezza9 Landmark',
-    category: 'Prominent Landmark',
-    distance: '1 Minute',
-    desc: 'Prominent dining and hospitality landmark located right beside Sakhare Complex on Marunji Road.'
-  },
-  {
-    name: 'Hinjawadi Rajiv Gandhi Infotech Park',
+    name: 'HITEC City & Cyber Towers',
     category: 'Major IT / Business Hub',
     distance: '5 Minutes',
-    desc: 'Premier technology and business park housing leading IT campuses, tech giants, and commercial centers.'
+    desc: 'Hyderabad’s premier global technology and financial epicenter, housing major international tech campuses and corporate headquarters.'
   },
   {
-    name: 'Marunji Road Arterial Corridor',
-    category: 'Arterial Transit Spine',
-    distance: 'Immediate Access',
-    desc: 'Key transit spine directly connecting Hinjawadi Phase 1 & 2 to Marunji and surrounding development zones.'
-  },
-  {
-    name: 'Mumbai-Pune Expressway',
-    category: 'Expressway Link',
+    name: 'Gachibowli Financial District',
+    category: 'Financial & Corporate Center',
     distance: '10 Minutes',
-    desc: 'High-speed transit access connecting Pune to Mumbai, Dehu Road bypass, and western Maharashtra corridors.'
+    desc: 'Prime business hub featuring corporate towers, financial institutions, premium hospitality, and luxury residential enclaves.'
   },
   {
-    name: 'Narhe & Pune Ring Road',
-    category: 'Growth Corridor',
-    distance: 'Key Connectivity',
-    desc: 'Strategic linkage to southern and western Pune commercial and residential sectors including Narhe.'
+    name: 'Outer Ring Road (ORR) Interchange',
+    category: 'Expressway Transit Spine',
+    distance: '8 Minutes',
+    desc: 'Multi-lane express corridor enabling seamless, rapid transit to all zones of Hyderabad and international airport connectivity.'
   },
   {
-    name: 'Pune Metro Line 3 Corridor',
+    name: 'Inorbit Mall & Durgam Cheruvu Corridor',
+    category: 'Retail & Recreation',
+    distance: '10 Minutes',
+    desc: 'Premier lifestyle and retail shopping hub adjacent to the iconic Durgam Cheruvu cable bridge and lakefront promenade.'
+  },
+  {
+    name: 'Hyderabad Metro Transit Corridor',
     category: 'Elevated Rapid Transit',
-    distance: 'Within Vicinity',
-    desc: 'Elevated metro transit connecting Hinjawadi directly to Pune University, Shivaji Nagar, and city center.'
+    distance: 'Nearby Access',
+    desc: 'Fast, efficient elevated metro connectivity directly linking western business districts with central Hyderabad.'
+  },
+  {
+    name: 'Rajiv Gandhi International Airport (RGIA)',
+    category: 'International Airport',
+    distance: 'Direct ORR Access',
+    desc: 'Smooth high-speed expressway transit directly connecting through the Outer Ring Road to Shamshabad airport.'
   }
 ];

@@ -64,7 +64,7 @@ export const MasterPlanModal: React.FC<MasterPlanModalProps> = ({ isOpen, onClos
                 letterSpacing: '0.06em'
               }}
             >
-              Master Site Layout • Hinjawadi, Pune
+              Master Site Layout • Hyderabad, Telangana
             </h3>
           </div>
         </div>
@@ -150,7 +150,7 @@ export const MasterPlanModal: React.FC<MasterPlanModalProps> = ({ isOpen, onClos
         >
           <img
             src="/images/master-plan.jpg"
-            alt="Master Site Plan Blueprint Hinjawadi Pune Future Construction"
+            alt="Master Property Layout Blueprint Hyderabad Smart Elite Realtors"
             style={{
               display: 'block',
               maxWidth: '100%',

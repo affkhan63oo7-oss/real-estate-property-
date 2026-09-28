@@ -67,7 +67,7 @@ export const ProjectLocation: React.FC = () => {
                 lineHeight: 1.6
               }}
             >
-              Positioned in Hinjawadi, Pune—conveniently situated at Sakhare Complex on Marunji Road near Hotel Mezza9, with swift access across Pune, Marunji, Hinjawadi, and Narhe.
+              Positioned in Hyderabad, Telangana, India—strategically situated (Coordinates: 17.452361, 78.358107) with effortless access across Hyderabad’s premier business districts, residential hubs, and transit arteries.
             </p>
           </ScrollReveal>
         </div>
@@ -93,10 +93,10 @@ export const ProjectLocation: React.FC = () => {
             >
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingBottom: '1rem', borderBottom: '1px solid rgba(201, 169, 130, 0.2)', marginBottom: '0.5rem' }}>
                 <span style={{ fontSize: '0.6875rem', fontFamily: 'var(--font-title)', letterSpacing: '0.18em', color: 'var(--accent-gold)', textTransform: 'uppercase' }}>
-                  Nearby Destination
+                  Key Destination
                 </span>
                 <span style={{ fontSize: '0.6875rem', fontFamily: 'var(--font-title)', letterSpacing: '0.18em', color: 'var(--accent-gold)', textTransform: 'uppercase' }}>
-                  Transit Time
+                  Transit Access
                 </span>
               </div>
 
@@ -177,7 +177,7 @@ export const ProjectLocation: React.FC = () => {
             </div>
           </ScrollReveal>
 
-          {/* Right Column: Stylized Cartographic Transit Blueprint */}
+          {/* Right Column: Google Maps Interactive Location Embed */}
           <ScrollReveal delay={160} distance={16} scale>
             <div
               className="card-editorial"
@@ -191,108 +191,23 @@ export const ProjectLocation: React.FC = () => {
                 style={{
                   position: 'relative',
                   width: '100%',
-                  height: 'clamp(320px, 45vw, 520px)',
+                  height: 'clamp(360px, 45vw, 540px)',
                   borderRadius: '12px',
                   overflow: 'hidden',
                   backgroundColor: '#0F1612',
                   border: '1px solid rgba(201, 169, 130, 0.25)'
                 }}
               >
-                <svg
-                  viewBox="0 0 500 420"
-                  style={{ width: '100%', height: '100%', backgroundColor: '#0F1612' }}
-                >
-                  {/* Grid Lines */}
-                  <defs>
-                    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-                      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(201, 169, 130, 0.05)" strokeWidth="1" />
-                    </pattern>
-                  </defs>
-                  <rect width="500" height="420" fill="url(#grid)" />
-
-                  {/* Marunji Green Buffer Corridor */}
-                  <rect x="370" y="0" width="130" height="420" fill="rgba(42, 64, 50, 0.35)" />
-                  <line x1="370" y1="0" x2="370" y2="420" stroke="rgba(201, 169, 130, 0.3)" strokeWidth="1.5" strokeDasharray="4 4" />
-                  <text x="435" y="210" textAnchor="middle" fontSize="10" fontFamily="Cinzel" letterSpacing="3" fill="var(--accent-gold)" transform="rotate(-90 435 210)">
-                    MARUNJI GREEN CORRIDOR
-                  </text>
-
-                  {/* Marunji Road Main North-South Artery */}
-                  <line x1="280" y1="0" x2="280" y2="420" stroke="#FAF8F5" strokeWidth="3" />
-                  <text x="288" y="45" fontSize="9" fontFamily="Cinzel" fontWeight="600" letterSpacing="1" fill="#FAF8F5">
-                    MARUNJI ROAD ARTERIAL
-                  </text>
-
-                  {/* Pune Metro Line 3 Corridor */}
-                  <line x1="300" y1="0" x2="300" y2="420" stroke="var(--accent-gold)" strokeWidth="2.5" strokeDasharray="6 3" />
-                  <text x="308" y="110" fontSize="8" fontFamily="Plus Jakarta Sans" letterSpacing="1" fill="var(--accent-gold)">
-                    PUNE METRO LINE 3
-                  </text>
-
-                  {/* Mumbai-Pune Expressway Link */}
-                  <line x1="100" y1="0" x2="100" y2="420" stroke="rgba(250, 248, 245, 0.45)" strokeWidth="2" strokeDasharray="8 4" />
-                  <text x="108" y="380" fontSize="9" fontFamily="Cinzel" letterSpacing="1" fill="rgba(250, 248, 245, 0.7)">
-                    MUMBAI-PUNE EXPRESSWAY LINK
-                  </text>
-
-                  {/* Hinjawadi IT Park Cross Road */}
-                  <line x1="100" y1="210" x2="370" y2="210" stroke="rgba(250, 248, 245, 0.5)" strokeWidth="2" />
-                  <text x="175" y="202" fontSize="9" fontFamily="Plus Jakarta Sans" letterSpacing="1" fill="#FAF8F5">
-                    HINJAWADI INFOTECH PARK AXIS
-                  </text>
-
-                  <line x1="100" y1="120" x2="370" y2="120" stroke="rgba(201, 169, 130, 0.35)" strokeWidth="1.5" strokeDasharray="3 3" />
-                  <text x="175" y="112" fontSize="8" fontFamily="Plus Jakarta Sans" fill="rgba(250, 248, 245, 0.75)">
-                    NARHE / REGIONAL RING ROAD
-                  </text>
-
-                  <line x1="100" y1="300" x2="370" y2="300" stroke="rgba(201, 169, 130, 0.35)" strokeWidth="1.5" strokeDasharray="3 3" />
-                  <text x="175" y="292" fontSize="8" fontFamily="Plus Jakarta Sans" fill="rgba(250, 248, 245, 0.75)">
-                    WAKAD & PUNE BYPASS
-                  </text>
-
-                  {/* Hinjawadi IT Park Node */}
-                  <g transform="translate(100, 210)">
-                    <circle cx="0" cy="0" r="6" fill="var(--accent-gold)" />
-                    <text x="-10" y="-12" textAnchor="end" fontSize="9" fontFamily="Cinzel" fontWeight="600" fill="#FAF8F5">
-                      HINJAWADI IT PARK
-                    </text>
-                  </g>
-
-                  {/* Marunji Road Junction Marker */}
-                  <g transform="translate(280, 210)">
-                    <circle cx="0" cy="0" r="5" fill="#FAF8F5" />
-                    <text x="10" y="-10" fontSize="8" fontFamily="Plus Jakarta Sans" fill="var(--accent-gold)">
-                      MARUNJI JUNCTION
-                    </text>
-                  </g>
-
-                  {/* Hotel Mezza9 Marker */}
-                  <g transform="translate(250, 260)">
-                    <rect x="-4" y="-4" width="8" height="8" fill="var(--accent-gold)" />
-                    <text x="12" y="3" fontSize="8" fontFamily="Cinzel" fill="#FAF8F5">
-                      NEAR HOTEL MEZZA9
-                    </text>
-                  </g>
-
-                  {/* Subject Property Beacon Pulse */}
-                  <g transform="translate(240, 165)">
-                    <circle cx="0" cy="0" r="24" fill="none" stroke="var(--accent-gold)" strokeWidth="1" opacity="0.25">
-                      <animate attributeName="r" values="10;32" dur="2.4s" repeatCount="indefinite" />
-                      <animate attributeName="opacity" values="0.6;0" dur="2.4s" repeatCount="indefinite" />
-                    </circle>
-                    <circle cx="0" cy="0" r="8" fill="var(--accent-gold)" />
-                    <circle cx="0" cy="0" r="3" fill="#0D1310" />
-
-                    <rect x="14" y="-16" width="165" height="32" rx="4" fill="rgba(13, 19, 16, 0.95)" stroke="var(--accent-gold)" strokeWidth="1" />
-                    <text x="22" y="-3" fontSize="8" fontFamily="Cinzel" fontWeight="600" letterSpacing="0.5" fill="#FAF8F5">
-                      FUTURE CONSTRUCTION
-                    </text>
-                    <text x="22" y="10" fontSize="7" fontFamily="Plus Jakarta Sans" fill="var(--accent-gold)">
-                      Sakhare Complex, Hinjawadi
-                    </text>
-                  </g>
-                </svg>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.153592667417!2d78.35810747858075!3d17.452361240762322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93001097a37b%3A0x42ac63f1896523e9!2sSmart%20Elite%20Realtors!5e0!3m2!1sen!2sin!4v1790565732138!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, width: '100%', height: '100%', display: 'block' }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  title="Smart Elite Realtors Location"
+                />
 
                 {/* Floating Map Legend */}
                 <div
@@ -302,7 +217,7 @@ export const ProjectLocation: React.FC = () => {
                     left: '1rem',
                     right: '1rem',
                     padding: '0.65rem 1rem',
-                    backgroundColor: 'rgba(13, 19, 16, 0.92)',
+                    backgroundColor: 'rgba(13, 19, 16, 0.94)',
                     backdropFilter: 'blur(8px)',
                     borderRadius: '8px',
                     border: '1px solid rgba(201, 169, 130, 0.25)',
@@ -313,20 +228,16 @@ export const ProjectLocation: React.FC = () => {
                     gap: '0.5rem',
                     fontSize: '0.6875rem',
                     fontFamily: 'var(--font-sans)',
-                    color: 'rgba(250, 248, 245, 0.75)'
+                    color: 'rgba(250, 248, 245, 0.75)',
+                    pointerEvents: 'none'
                   }}
                 >
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.45rem' }}>
                     <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: 'var(--accent-gold)' }} />
-                    <span>Future Construction Hub</span>
+                    <span style={{ fontWeight: 600, color: '#FAF8F5' }}>Smart Elite Realtors</span>
                   </div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-                    <div style={{ width: '12px', height: '2px', backgroundColor: '#FAF8F5' }} />
-                    <span>Marunji Road</span>
-                  </div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-                    <div style={{ width: '12px', height: '2px', backgroundColor: 'var(--accent-gold)' }} />
-                    <span>Metro Line 3</span>
+                  <div>
+                    <span>Hyderabad, Telangana (17.452361, 78.358107)</span>
                   </div>
                 </div>
               </div>

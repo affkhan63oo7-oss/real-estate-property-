@@ -202,7 +202,7 @@ export const TowerInquiryModal: React.FC<TowerInquiryModalProps> = ({
               Consultation Enquiry Received
             </h3>
             <p style={{ fontSize: '0.9375rem', lineHeight: 1.8, marginBottom: '2rem', color: 'var(--text-espresso)' }}>
-              Your enquiry has been registered with Future Construction. Our team in Hinjawadi will connect with you to review your property requirements and discuss next steps.
+              Your enquiry has been registered with Smart Elite Realtors. Our advisory team in Hyderabad will connect with you to review your property requirements and discuss next steps.
             </p>
 
             <div
@@ -246,12 +246,12 @@ export const TowerInquiryModal: React.FC<TowerInquiryModalProps> = ({
           </div>
         ) : (
           <div>
-            <span className="chapter-number">Future Construction</span>
+            <span className="chapter-number">Smart Elite Realtors</span>
             <h3 style={{ fontSize: '1.85rem', color: 'var(--text-espresso)', marginBottom: '0.5rem' }}>
-              Enquire with Future Construction
+              Enquire with Smart Elite Realtors
             </h3>
             <p style={{ fontSize: '0.875rem', lineHeight: 1.8, marginBottom: '2rem', color: 'var(--text-espresso)' }}>
-              Dedicated property consultation in Hinjawadi, Pune. Submit your details to discuss residential land & plots, commercial plots, residential or commercial properties, or land development.
+              Dedicated property consulting in Hyderabad, Telangana. Submit your details to discuss buying, selling, renting, or investing in residential and commercial properties.
             </p>
 
             {errorMessage && (
@@ -348,7 +348,7 @@ export const TowerInquiryModal: React.FC<TowerInquiryModalProps> = ({
                   <input
                     type="tel"
                     required
-                    placeholder="e.g. +91 72103 20001"
+                    placeholder="e.g. +91 98765 43210"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     style={{

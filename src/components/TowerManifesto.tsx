@@ -54,7 +54,7 @@ export const TowerManifesto: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=85"
-                alt="Future Construction Hinjawadi Pune"
+                alt="Smart Elite Realtors Hyderabad"
                 style={{
                   width: '100%',
                   height: '100%',
@@ -78,7 +78,7 @@ export const TowerManifesto: React.FC = () => {
                   maxWidth: 'calc(100% - 2rem)'
                 }}
               >
-                Future Construction • Hinjawadi, Pune
+                Smart Elite Realtors • Hyderabad, Telangana
               </div>
             </div>
           </ScrollReveal>
@@ -96,19 +96,19 @@ export const TowerManifesto: React.FC = () => {
                   marginBottom: '1.5rem'
                 }}
               >
-                "Navigating Pune’s property market requires practical guidance, transparent communication, and dedicated assistance focused on your individual goals."
+                "Smart Property Guidance for Hyderabad"
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={200} distance={12}>
               <p style={{ marginBottom: '1.25rem', lineHeight: 1.85 }}>
-                Future Construction is a real estate developer and property developer based in Hinjawadi, Pune, helping clients with residential land & plots, commercial plots, and property development.
+                Smart Elite Realtors provides real-estate consulting services in Hyderabad for clients looking to buy, sell, rent, or invest in residential and commercial properties.
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={240} distance={12}>
               <p style={{ marginBottom: '2rem', lineHeight: 1.85 }}>
-                We guide clients through buying, selling, renting, commercial property, property management, and personalised real-estate consultation. Our approach centers on practical property assistance, local market understanding, and clear communication from your first inquiry to the final decision.
+                Smart Elite Realtors supports buyers, sellers, tenants, landlords, and investors with residential and commercial property requirements across Hyderabad. Our services include buying assistance, property selling support, rental assistance, apartments, villas, independent houses, plots, commercial spaces, offices, shops, and property investment guidance.
               </p>
             </ScrollReveal>
 
@@ -152,10 +152,10 @@ export const TowerManifesto: React.FC = () => {
                     Location
                   </span>
                   <div style={{ fontFamily: 'var(--font-title)', fontSize: '1.1rem', color: 'var(--text-espresso)', marginTop: '0.2rem' }}>
-                    Pune
+                    Hyderabad
                   </div>
                   <span style={{ fontSize: '0.6875rem', color: 'var(--text-muted)', display: 'block', marginTop: '0.15rem' }}>
-                    Hinjawadi, Marunji & Narhe
+                    Telangana, India
                   </span>
                 </div>
               </div>

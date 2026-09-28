@@ -74,10 +74,10 @@ export const DeveloperHeritage: React.FC = () => {
             09 / Professional Lineage
           </span>
           <h2 style={{ fontSize: 'clamp(2.4rem, 4.5vw, 4rem)', color: 'var(--text-primary)' }}>
-            Future Construction
+            Smart Elite Realtors
           </h2>
           <p style={{ maxWidth: '650px', marginTop: '0.5rem' }}>
-            Future Construction is a real estate developer and property developer based in Hinjawadi, Pune, specializing in residential and commercial plots, land property, and development across Pune, Marunji, Hinjawadi, and Narhe.
+            Smart Elite Realtors provides real-estate consulting services in Hyderabad for clients looking to buy, sell, rent, or invest in residential and commercial properties.
           </p>
         </div>
 
