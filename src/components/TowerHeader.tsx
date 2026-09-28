@@ -219,7 +219,7 @@ export const TowerHeader: React.FC<TowerHeaderProps> = ({
 
             {/* Call Now Secondary CTA */}
             <a
-              href="tel:[PHONE_NUMBER]"
+              href="tel:+919703525155"
               className="hidden-mobile"
               style={{
                 display: 'inline-flex',
@@ -401,7 +401,7 @@ export const TowerHeader: React.FC<TowerHeaderProps> = ({
             </button>
 
             <a
-              href="tel:[PHONE_NUMBER]"
+              href="tel:+919703525155"
               className="btn-111-secondary"
               style={{
                 width: '100%',
@@ -416,11 +416,11 @@ export const TowerHeader: React.FC<TowerHeaderProps> = ({
                 justifyContent: 'center'
               }}
             >
-              Call: [PHONE_NUMBER]
+              Call: +91 97035 25155
             </a>
 
             <a
-              href="https://wa.me/[WHATSAPP_NUMBER]"
+              href="https://wa.me/919703525155"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-111-secondary"

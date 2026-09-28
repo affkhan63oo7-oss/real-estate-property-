@@ -46,7 +46,7 @@ export const FloatingConcierge: React.FC<FloatingConciergeProps> = ({
           </span>
 
           <a
-            href="https://wa.me/[WHATSAPP_NUMBER]"
+            href="https://wa.me/919703525155"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -86,7 +86,7 @@ export const FloatingConcierge: React.FC<FloatingConciergeProps> = ({
           </button>
 
           <a
-            href="tel:[PHONE_NUMBER]"
+            href="tel:+919703525155"
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -101,7 +101,7 @@ export const FloatingConcierge: React.FC<FloatingConciergeProps> = ({
             }}
           >
             <Phone size={14} />
-            <span>Call Now: [PHONE_NUMBER]</span>
+            <span>Call Now: +91 97035 25155</span>
           </a>
         </div>
       )}

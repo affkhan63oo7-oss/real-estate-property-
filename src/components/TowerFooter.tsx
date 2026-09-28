@@ -119,7 +119,7 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
                   maxWidth: '680px'
                 }}
               >
-                [FULL_OFFICE_ADDRESS] • Hyderabad, Telangana, India
+                SLN Terminus, Jayabheri Enclave, Gachibowli, Hyderabad, Telangana 500032
               </span>
             </div>
 
@@ -134,7 +134,7 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
               </button>
 
               <a
-                href="tel:[PHONE_NUMBER]"
+                href="tel:+919703525155"
                 className="btn-gold-outline"
                 style={{
                   flex: '1 1 140px',
@@ -152,7 +152,7 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
               </a>
 
               <a
-                href="https://wa.me/[WHATSAPP_NUMBER]"
+                href="https://wa.me/919703525155"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-gold-outline"
@@ -202,18 +202,18 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem', fontSize: '0.85rem', color: 'rgba(250, 248, 245, 0.75)' }}>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.65rem' }}>
                 <MapPin size={16} color="var(--accent-gold)" style={{ flexShrink: 0, marginTop: '0.2rem' }} />
-                <span>[FULL_OFFICE_ADDRESS] • Hyderabad, Telangana, India</span>
+                <span>SLN Terminus, Jayabheri Enclave, Gachibowli, Hyderabad, Telangana 500032</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
                 <Phone size={15} color="var(--accent-gold)" style={{ flexShrink: 0 }} />
-                <a href="tel:[PHONE_NUMBER]" style={{ color: 'inherit', textDecoration: 'none' }}>
-                  [PHONE_NUMBER]
+                <a href="tel:+919703525155" style={{ color: 'inherit', textDecoration: 'none' }}>
+                  +91 97035 25155
                 </a>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
                 <MessageCircle size={15} color="var(--accent-gold)" style={{ flexShrink: 0 }} />
-                <a href="https://wa.me/[WHATSAPP_NUMBER]" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
-                  WhatsApp: [WHATSAPP_NUMBER]
+                <a href="https://wa.me/919703525155" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                  WhatsApp: +91 97035 25155
                 </a>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
@@ -223,7 +223,7 @@ export const TowerFooter: React.FC<TowerFooterProps> = ({ onInquireClick, onToas
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.65rem' }}>
                 <Clock size={15} color="var(--accent-gold)" style={{ flexShrink: 0, marginTop: '0.2rem' }} />
                 <div>
-                  <div>Working Hours: [WORKING_HOURS]</div>
+                  <div>Working Hours: Mon–Sat, 10 AM–6 PM</div>
                 </div>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>

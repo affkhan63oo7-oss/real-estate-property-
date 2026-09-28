@@ -43,9 +43,9 @@ export const ProjectStatsBar: React.FC = () => {
     },
     {
       icon: <Clock size={18} color="var(--accent-gold)" />,
-      value: '[WORKING_HOURS]',
+      value: 'Mon–Sat, 10 AM–6 PM',
       label: 'Working Hours',
-      caption: 'Operating Schedule'
+      caption: 'Consultation Schedule'
     }
   ];
 

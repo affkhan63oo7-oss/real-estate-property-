@@ -216,7 +216,7 @@ export const ResidenceDossierModal: React.FC<ResidenceDossierModalProps> = ({
             </button>
 
             <a
-              href="tel:[PHONE_NUMBER]"
+              href="tel:+919703525155"
               className="btn-111-secondary"
               style={{
                 flex: '1 1 140px',
@@ -234,7 +234,7 @@ export const ResidenceDossierModal: React.FC<ResidenceDossierModalProps> = ({
             </a>
 
             <a
-              href="https://wa.me/[WHATSAPP_NUMBER]"
+              href="https://wa.me/919703525155"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-111-secondary"

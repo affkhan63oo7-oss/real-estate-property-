@@ -401,7 +401,7 @@ export const ProjectConfigurations: React.FC<ProjectConfigurationsProps> = ({
                 </button>
 
                 <a
-                  href="https://wa.me/[WHATSAPP_NUMBER]"
+                  href="https://wa.me/919703525155"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-gold-outline"

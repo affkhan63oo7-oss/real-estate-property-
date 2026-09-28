@@ -163,7 +163,7 @@ export const Footer: React.FC<FooterProps> = ({
             <div style={{ fontSize: '0.875rem', color: 'rgba(255, 255, 255, 0.7)', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
               <div><strong>Business:</strong> Smart Elite Realtors</div>
               <div><strong>Type:</strong> Real Estate Consultant / Property Advisory</div>
-              <div><strong>Location:</strong> [FULL_OFFICE_ADDRESS] • Hyderabad, Telangana, India</div>
+              <div><strong>Location:</strong> SLN Terminus, Jayabheri Enclave, Gachibowli, Hyderabad, Telangana 500032</div>
             </div>
           </div>
 

@@ -144,7 +144,7 @@ export const ProjectIntroduction: React.FC<ProjectIntroductionProps> = ({ onInqu
                 </button>
 
                 <a
-                  href="tel:[PHONE_NUMBER]"
+                  href="tel:+919703525155"
                   className="btn-gold-outline"
                   style={{
                     display: 'inline-flex',
@@ -159,7 +159,7 @@ export const ProjectIntroduction: React.FC<ProjectIntroductionProps> = ({ onInqu
                 </a>
 
                 <a
-                  href="https://wa.me/[WHATSAPP_NUMBER]"
+                  href="https://wa.me/919703525155"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-gold-outline"

@@ -111,16 +111,16 @@ export const ProjectFinalCTA: React.FC<ProjectFinalCTAProps> = ({ onInquireClick
                   </button>
 
                   <a
-                    href="tel:[PHONE_NUMBER]"
+                    href="tel:+919703525155"
                     className="btn-gold-outline"
                     style={{ padding: '0.9rem 1.5rem', minHeight: '44px', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}
                   >
                     <Phone size={15} color="var(--accent-gold)" />
-                    <span>Call: [PHONE_NUMBER]</span>
+                    <span>Call: +91 97035 25155</span>
                   </a>
 
                   <a
-                    href="https://wa.me/[WHATSAPP_NUMBER]"
+                    href="https://wa.me/919703525155"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-gold-outline"

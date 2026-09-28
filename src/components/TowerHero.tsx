@@ -314,7 +314,7 @@ export const TowerHero: React.FC<TowerHeroProps> = ({ onExploreClick, onInquireC
 
           {/* Secondary CTA: Call Now */}
           <a
-            href="tel:[PHONE_NUMBER]"
+            href="tel:+919703525155"
             className="btn-111-secondary"
             style={{
               color: '#FAF8F5',
@@ -336,7 +336,7 @@ export const TowerHero: React.FC<TowerHeroProps> = ({ onExploreClick, onInquireC
 
           {/* Direct CTA: WhatsApp Us */}
           <a
-            href="https://wa.me/[WHATSAPP_NUMBER]"
+            href="https://wa.me/919703525155"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-111-secondary"

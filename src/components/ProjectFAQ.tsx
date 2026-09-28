@@ -24,17 +24,17 @@ export const ProjectFAQ: React.FC = () => {
     {
       question: 'Where is Smart Elite Realtors located and how can I visit?',
       answer:
-        'Smart Elite Realtors is based in Hyderabad, Telangana, India at [FULL_OFFICE_ADDRESS] (Google Maps Coordinates: 17.452361, 78.358107). Please reach out to our team to schedule an in-person consultation or site walkthrough.'
+        'Smart Elite Realtors is based in Hyderabad, Telangana, India at SLN Terminus, Jayabheri Enclave, Gachibowli, Hyderabad, Telangana 500032 (Google Maps Coordinates: 17.452361, 78.358107). Please reach out to our team to schedule an in-person consultation or site walkthrough.'
     },
     {
       question: 'What are Smart Elite Realtors’ business hours?',
       answer:
-        'Our business hours for consultation and client support are [WORKING_HOURS].'
+        'Our business hours for consultation and client support are Mon–Sat, 10 AM–6 PM.'
     },
     {
       question: 'How do I arrange a property consultation or site walkthrough?',
       answer:
-        'You can click "Enquire Now" on this website, call us at [PHONE_NUMBER], reach out via WhatsApp at [WHATSAPP_NUMBER], or email us at [BUSINESS_EMAIL]. Our advisory team will assist with scheduling and property details.'
+        'You can click "Enquire Now" on this website, call us at +91 97035 25155, reach out via WhatsApp at +91 97035 25155, or email us at [BUSINESS_EMAIL]. Our advisory team will assist with scheduling and property details.'
     },
     {
       question: 'What regulatory and compliance standards does Smart Elite Realtors follow?',
